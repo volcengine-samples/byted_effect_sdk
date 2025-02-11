@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "封面相机"
+    },
+    {
+      "name": "camera_reason",
+      "value": "你将可以录制视频和应用特效"
+    },
+    {
+      "name": "rw_reason",
+      "value": "若要在你的设备保存照片或视频，请开启你的相册读写权限"
+    },
+    {
+      "name": "camera_not_auth",
+      "value": "未授权相机使用权限"
+    },
+    {
+      "name": "internet_auth",
+      "value": "AI 风格化依赖服务资源，请开启网络后使用"
+    },
+    {
+      "name": "vibrate_auth",
+      "value": "体验优化，需要驱动马达"
+    }
+  ]
+}

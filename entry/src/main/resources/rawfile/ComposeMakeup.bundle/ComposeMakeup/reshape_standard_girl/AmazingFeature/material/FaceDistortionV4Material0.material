@@ -1,0 +1,33 @@
+%YAML 1.1
+--- !Material &1
+name: face0_material
+guid: {a: 17387048895705996445, b: 4670700142412731567}
+xshader: {localId: 1, path: xshader/Fdxshader.xshader}
+properties:
+  __class: PropertySheet
+  name: face0_propertySheet
+  guid: {a: 1461284955151162921, b: 8562557290543106728}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _tex: {localId: 1, path: share://input.texture}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AreaLightNum: !<str> 0
+  AE_DirLightNum: !<str> 0
+  AE_PointLightNum: !<str> 0
+  AE_SpotLightNum: !<str> 0
+mshaderPath: ""
+instanceCount: 0

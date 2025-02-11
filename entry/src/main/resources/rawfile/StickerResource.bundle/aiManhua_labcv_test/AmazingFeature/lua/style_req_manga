@@ -1,0 +1,301 @@
+{
+    "Person_backup": {
+        "Person_backup_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Person_backup_1"
+            }
+        }
+    },
+    "Male_single": {
+        "Male_single_1": {
+            "probability": 0.1,
+            "req_json": {
+                "tag": "Male_single_1"
+            }
+        },
+        "Male_single_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Male_single_2"
+            }
+        },
+        "Male_single_3": {
+            "probability": 0.15,
+            "req_json": {
+                "tag": "Male_single_3"
+            }
+        },
+        "Male_single_4": {
+            "probability": 0.1,
+            "req_json": {
+                "tag": "Male_single_4"
+            }
+        },
+        "Male_single_5": {
+            "probability": 0.15,
+            "req_json": {
+                "tag": "Male_single_5"
+            }
+        },
+        "Male_single_6": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Male_single_6"
+            }
+        },
+        "Male_single_7": {
+            "probability": 0.1,
+            "req_json": {
+                "tag": "Male_single_7"
+            }
+        },
+        "Male_single_8": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Male_single_8"
+            }
+        },
+        "Male_single_9": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Male_single_9"
+            }
+        },
+        "Male_single_10": {
+            "probability": 0.1,
+            "req_json": {
+                "tag": "Male_single_10"
+            }
+        },
+        "Male_single_11": {
+            "probability": 0.01,
+            "req_json": {
+                "tag": "Male_single_11"
+            }
+        }
+    },
+    "Female_single": {
+        "Female_single_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Female_single_1"
+            }
+        },
+        "Female_single_2": {
+            "probability": 0.01,
+            "req_json": {
+                "tag": "Female_single_2"
+            }
+        },
+        "Female_single_3": {
+            "probability": 0.02,
+            "req_json": {
+                "tag": "Female_single_3"
+            }
+        },
+        "Female_single_4": {
+            "probability": 0.3,
+            "req_json": {
+                "tag": "Female_single_4"
+            }
+        },
+        "Female_single_5": {
+            "probability": 0,
+            "req_json": {
+                "tag": "Female_single_5"
+            }
+        },
+        "Female_single_6": {
+            "probability": 0.02,
+            "req_json": {
+                "tag": "Female_single_6"
+            }
+        },
+        "Female_single_7": {
+            "probability": 0.05,
+            "req_json": {
+                "tag": "Female_single_7"
+            }
+        },
+        "Female_single_8": {
+            "probability": 0,
+            "req_json": {
+                "tag": "Female_single_8"
+            }
+        },
+        "Female_single_9": {
+            "probability": 0.15,
+            "req_json": {
+                "tag": "Female_single_9"
+            }
+        },
+        "Female_single_10": {
+            "probability": 0.05,
+            "req_json": {
+                "tag": "Female_single_10"
+            }
+        },
+        "Female_single_11": {
+            "probability": 0.1,
+            "req_json": {
+                "tag": "Female_single_11"
+            }
+        },
+        "Female_single_12": {
+            "probability": 0.01,
+            "req_json": {
+                "tag": "Male_single_8"
+            }
+        },
+        "Female_single_13": {
+            "probability": 0.01,
+            "req_json": {
+                "tag": "Male_single_3"
+            }
+        }
+    },
+    "Multiple_male_female": {
+        "Multiple_male_female_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Multiple_male_female_1"
+            }
+        }
+    },
+    "Lovers": {
+        "Lovers_1": {
+            "probability": 0.4,
+            "req_json": {
+                "tag": "Lovers_1"
+            }
+        },
+        "Lovers_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Lovers_2"
+            }
+        },
+        "Lovers_3": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Lovers_3"
+            }
+        },
+        "Lovers_4": {
+            "probability": 0.2,
+            "req_json": {
+                "tag": "Lovers_4"
+            }
+        },
+        "Lovers_5": {
+            "probability": 0.2,
+            "req_json": {
+                "tag": "Lovers_5"
+            }
+        }
+    },
+    "Family_of_three": {
+        "Family_of_three_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Family_of_three_1"
+            }
+        }
+    },
+    "Multiple_female": {
+        "Multiple_female_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Multiple_female_1"
+            }
+        }
+    },
+
+    "Multiple_male": {
+        "Multiple_male_1": {
+            "probability": 0.6,
+            "req_json": {
+                "tag": "Multiple_male_1"
+            }
+        },
+        "Multiple_male_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Multiple_male_2"
+            }
+        },
+        "Multiple_male_3": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Multiple_male_3"
+            }
+        }
+    },
+    "Dog": {
+        "Dog_1": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Dog_1"
+            }
+        },
+        "Dog_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Dog_2"
+            }
+        },
+        "Dog_3": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Dog_3"
+            }
+        },
+        "Dog_4": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Dog_4"
+            }
+        }
+    },
+    "Cat": {
+        "Cat_1": {
+            "probability": 0.5,
+            "req_json": {
+                "tag": "Cat_1"
+            }
+        },
+        "Cat_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Cat_2"
+            }
+        },
+        "Cat_3": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Cat_3"
+            }
+        }
+    },
+    "Person_with_pet": {
+        "Person_with_pet_1": {
+            "probability": 0.5,
+            "req_json": {
+                "tag": "Person_with_pet_1"
+            }
+        },
+        "Person_with_pet_2": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Person_with_pet_2"
+            }
+        },
+        "Person_with_pet_3": {
+            "probability": -1,
+            "req_json": {
+                "tag": "Person_with_pet_3"
+            }
+        }
+    }
+}

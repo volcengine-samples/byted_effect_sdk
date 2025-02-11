@@ -1,0 +1,49 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001608B01F126CCAF81632F38EA2756F1AEAA7101521482C2860469E45F5524CB9666D6A",
+          "certpath": "./ohos_pack/cvsdk.cer",
+          "keyAlias": "cvdemo",
+          "keyPassword": "000000165EF42F10F7538E0405DA710171E6B551024AE64058A3F8CF00185EB4E5B4B3BB36A1",
+          "profile": "./ohos_pack/cvsdkRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "./ohos_pack/cvdemokey.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

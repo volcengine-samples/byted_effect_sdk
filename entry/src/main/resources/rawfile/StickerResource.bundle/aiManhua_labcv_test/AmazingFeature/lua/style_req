@@ -1,0 +1,192 @@
+{
+    "styles": {
+        "cn_ink_painting": {
+            "scene": {
+                "probability": 0.1,
+                "req_json": {
+                    "prompt": "A beautiful chinese ink and wash painting, scenery, Qi Baishi, Zhang Daqian",
+                    "strength": 0.4,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                },
+                "preprocess": {
+                    "lut": "low_saturation.png"
+                }
+            },
+            "selfie": {}
+        },
+        "jp_manga": {
+            "scene": {
+                "probability": 0.15,
+                "req_json": {
+                    "prompt": "a beautiful illustration of a city,  concept art anime key visual trending pixiv fanbox by makoto shinkai and studio ghibli, visually stunning, best quality",
+                    "strength": 0.5,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                },
+                "preprocess": {
+                    "lut": "jp_manga.png"
+                }
+            },
+            "selfie": {}
+        },
+        "vincent_van_gogh": {
+            "scene": {
+                "probability": 0.3,
+                "req_json": {
+                    "prompt": "A beautiful painting by vincent van gogh, Post-Impressionism, oil on canvas, trending on art station, starry night",
+                    "strength": 0.4,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 1.0
+                },
+                "preprocess": {
+                    "lut": "vincent_van_gogh.png"
+                }
+            },
+            "selfie": {
+                "probability": 0,
+                "req_json": {
+                    "prompt": "A beautiful painting by vincent van gogh, Post-Impressionism, oil on canvas, trending on art station, starry night",
+                    "strength": 0.45,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 1.0
+                },
+                "preprocess": {
+                    "lut": "vincent_van_gogh.png"
+                },
+                "req_json_genderspec": {
+                    "1": {
+                        "prompt": "A beautiful painting of a man by vincent van gogh, Post-Impressionism, oil on canvas, trending on art station, starry night, beautiful Chinese face, big eyes",
+                        "strength": 0.45,
+                        "seed": -1,
+                        "ddim_steps": 30,
+                        "ddim_eta": 1.0
+                    },
+                    "0": {
+                        "prompt": "A beautiful painting of a girl by vincent van gogh, Post-Impressionism, oil on canvas, trending on art station, starry night, beautiful Chinese face, big eyes",
+                        "strength": 0.45,
+                        "seed": -1,
+                        "ddim_steps": 30,
+                        "ddim_eta": 1.0
+                    }
+                }
+            }
+        },
+        "picasso_pablo": {
+            "scene": {
+                "probability": 0,
+                "req_json": {
+                    "prompt": "a beautiful painting by pablo picasso",
+                    "strength": 0.45,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                }
+            },
+            "selfie": {
+                "probability": 0,
+                "req_json": {
+                    "prompt": "a beautiful painting by pablo picasso",
+                    "strength": 0.45,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 1.0
+                }
+            }
+        },
+        "matisse": {
+            "scene": {},
+            "selfie": {
+                "probability": 0,
+                "req_json": {
+                    "prompt": "a beautiful painting by Henri Matisse",
+                    "strength": 0.45,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 1.0
+                }
+            }
+        },
+        "beastars": {
+            "scene": {},
+            "selfie": {
+                "probability": 0,
+                "req_json": {
+                    "prompt": "beastars",
+                    "strength": 0.5,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 1.0
+                },
+                "req_json_genderspec": {
+                    "1": {
+                        "prompt": "beastars",
+                        "strength": 0.5,
+                        "seed": -1,
+                        "ddim_steps": 30,
+                        "ddim_eta": 1.0
+                    },
+                    "0": {
+                        "prompt": "beastars",
+                        "strength": 0.5,
+                        "seed": -1,
+                        "ddim_steps": 30,
+                        "ddim_eta": 1.0
+                    }
+                }
+            }
+        },
+        "mondrian": {
+            "scene": {
+                "probability": -1,
+                "req_json": {
+                    "prompt": "an abstract painting by Piet Cornelies Mondrian",
+                    "strength": 0.5,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                }
+            },
+            "selfie": {}
+        },
+        "futurism": {
+            "scene": {
+                "probability": -1,
+                "req_json": {
+                    "prompt": "a painting, in the style of Futurism",
+                    "strength": 0.4,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                }
+            },
+            "selfie": {}
+        },
+        "cubism": {
+            "scene": {
+                "probability": -1,
+                "req_json": {
+                    "prompt": "a painting, in the style of Cubism",
+                    "strength": 0.4,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                }
+            },
+            "selfie": {
+                "probability": -1,
+                "req_json": {
+                    "prompt": "a painting, in the style of Cubism",
+                    "strength": 0.45,
+                    "seed": -1,
+                    "ddim_steps": 30,
+                    "ddim_eta": 0.0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+%YAML 1.1
+--- !Prefab &1
+name: ""
+guid: {a: 6433661139224355332, b: 915891198811186092}
+entities:
+  - __class: Entity
+    name: !<str> 1.03367e+19
+    guid: {a: 17098676914843283637, b: 16753730375228272013}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 1243374912989571200, b: 11448913782528073890}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/filter_zjtq_1625588601filter_zjtq_1625588601ptgg.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: false
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: mesh/Quad_kxpe_1684381863.mesh}
+        castShadow: false
+    layer: 66
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: ""
+guid: {a: 17962933508348770381, b: 8926399995015706516}
+enabled: true
+localPosition: {x: 0, y: 0, z: -10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic

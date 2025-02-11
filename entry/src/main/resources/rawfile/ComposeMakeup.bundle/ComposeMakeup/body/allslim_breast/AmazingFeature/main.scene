@@ -1,0 +1,234 @@
+%YAML 1.1
+--- !Scene &1
+name: Sticker_empty
+guid: {a: 9529710529410663915, b: 1041061742232859056}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V4
+entities:
+  - __class: Entity
+    name: Camera_entity
+    guid: {a: 10828432143935769098, b: 5930968130842555065}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: Camera_camera
+        guid: {a: 15946755403162035916, b: 12218680940621807758}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 1, values: [1]}
+        renderOrder: 1
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 0}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: rt/outputTex.rt}
+        isRootCamera: true
+    layer: 0
+  - __class: Entity
+    name: Untitled
+    guid: {a: 11836690711752910499, b: 14302579713959517885}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 16303034808874974983, b: 4452395935771063704}
+        enabled: false
+        sharedMaterials:
+          - {localId: 1, path: material/noface.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        castShadow: false
+      - __class: NsComponent
+        name: ""
+        guid: {a: 8956853698182108863, b: 7757490480587510402}
+        enabled: true
+        items:
+          - __class: NsItem
+            name: ""
+            guid: {a: 15583816731814716980, b: 1590147672433157789}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SMALL_HEAD
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 15583816731824716980, b: 1590147672433157789}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: STRETCH_LEG
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363446700999735, b: 9226097877534410425}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_WAIST
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363440700999735, b: 9226097877514410425}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_BREAST
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363440700999666, b: 9226097877514410666}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_LEG
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363440700999777, b: 9226097877514410777}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_HIP
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: true
+            smoothDegree: 0.2
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363440700999888, b: 9226097877514410888}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SMALL_HEAD
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 454363440700999999, b: 9226097877514410999}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_ARM
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: true
+            smoothDegree: 0.2
+          - __class: NsItem
+            name: ""
+            guid: {a: 111363440700999999, b: 1116097877514410999}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SWAN_NECK
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+          - __class: NsItem
+            name: ""
+            guid: {a: 222363440700999999, b: 2226097877514410999}
+            intensity: 0
+            type:
+              __class: NsItemType
+              value: SLIM_BODY
+            strategy:
+              __class: NsStrategyType
+              value: DEFAULT
+            enabled: true
+            needSmooth: false
+            smoothDegree: 0.4300000071525574
+        inputType:
+          __class: NsInputType
+          value: VEDIO
+        drawGridAsWireframe: false
+        cellNumHorizontal: 75
+        cellNumVertical: 75
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+scriptSystems:
+  - lua/NsReshapeControl.lua
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: OpenGLES30
+--- !Transform &2
+name: Camera_transform
+guid: {a: 669349631702408307, b: 17514623247519981460}
+enabled: true
+localPosition: {x: 0, y: 0, z: 10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 6866448671114133758, b: 10813883147695936649}
+enabled: true
+localPosition: {x: 0, y: 0, z: -10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic

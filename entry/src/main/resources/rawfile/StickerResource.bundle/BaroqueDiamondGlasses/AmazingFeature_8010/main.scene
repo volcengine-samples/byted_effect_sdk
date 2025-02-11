@@ -1,0 +1,539 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+calibrateVer: V6
+entities:
+  - __class: Entity
+    name: "@SceneRoot"
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 4}
+    layer: 0
+  - __class: Entity
+    name: nqopsgay1584517602
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 5}
+      - __class: Camera
+        name: ""
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 0}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: false
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: rt/sqdrsscs_1584606653.rt}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: jyembfok1584517605
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 7}
+      - __class: DirectionalLight
+        name: ""
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 0.001000000047497451
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+    layer: 0
+  - __class: Entity
+    name: fjrjnbct1584517606
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 9}
+      - __class: FaceCapture
+        name: ""
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: false
+    layer: 0
+  - __class: Entity
+    name: 11009839136297393792
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 11}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: false
+        useFrustumCulling: true
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: huan
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 12}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/valyalyg_1591600942.material}
+        sortingOrder: 1
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/uwhdqcud_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: zhenzhu
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/dldiesfo_1589189987.material}
+        sortingOrder: 2
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/jfzqxean_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: gold
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 14}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/hiarpmlb_1589026776.material}
+        sortingOrder: 3
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/cdejvhsl_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: gold_huan
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 15}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/hiarpmlb_1589026776.material}
+        sortingOrder: 4
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/efnoasyt_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: glass
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 16}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/hydfydag_1591006480.material}
+        sortingOrder: 5
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/nujtofmb_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: sphere
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 17}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/pbfhnjmi_1591187848.material}
+        sortingOrder: 6
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/fnmngaow_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: zs_b
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 18}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/jyembfok_1591602093.material}
+        sortingOrder: 7
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/tofehuea_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: zs_f
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 19}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/fjrjnbct_1590747066.material}
+        sortingOrder: 8
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/yorghggu_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: red
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 20}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/dsyjxrrr_1591078385.material}
+        sortingOrder: 9
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/grtitmsw_1591707554.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: Ired2
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 21}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/ygeaknmv_1591253811.material}
+        sortingOrder: 10
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/xgphyvqr_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: green
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 22}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/valyalyg_1591258243.material}
+        sortingOrder: 11
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/ixxrrtkh_1591342721.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: pink001
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 23}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/valyalyg_1591257202.material}
+        sortingOrder: 12
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/wrveworl_1591709675.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: bule001
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 24}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/yhwclhur_1591255931.material}
+        sortingOrder: 13
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/hiarpmlb_1591709675.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: brhgwaqc1584517606
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 26}
+      - __class: MeshRenderer
+        name: ""
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/valyalyg_1591766226.material}
+        sortingOrder: 15
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/ekxuuisp_1589188459.mesh}
+        castShadow: true
+    layer: 0
+  - __class: Entity
+    name: bule_3
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 25}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/yhwclhur_1591255931.material}
+        sortingOrder: 14
+        autoSortingOrder: false
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/usmzudia_1591769635.mesh}
+        castShadow: true
+    layer: 0
+visible: true
+config:
+  __class: Map
+--- !Transform &4
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 5}
+  - {localId: 7}
+  - {localId: 9}
+--- !Transform &5
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 8.458458}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+--- !Transform &7
+name: ""
+enabled: true
+localPosition: {x: 0, y: 6.531962, z: 8}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9737427, x: -0.2276515, y: 0, z: 0}
+parent: {localId: 4}
+--- !Transform &9
+name: ""
+enabled: true
+localPosition: {x: -0.04930722, y: 1.745519, z: -5.72571}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9950342, x: 0.0988619, y: -0.007242751, z: -0.008995599}
+parent: {localId: 4}
+children:
+  - {localId: 11}
+  - {localId: 26}
+--- !Transform &11
+name: ""
+enabled: true
+localPosition: {x: -0.02, y: 0.04, z: 0}
+localScale: {x: 0.76, y: 0.76, z: 0.76}
+localOrientation: {w: 0.7070799, x: -0.7070799, y: -0.006171644, z: 0.006169468}
+parent: {localId: 9}
+children:
+  - {localId: 12}
+  - {localId: 13}
+  - {localId: 14}
+  - {localId: 15}
+  - {localId: 16}
+  - {localId: 17}
+  - {localId: 18}
+  - {localId: 19}
+  - {localId: 20}
+  - {localId: 21}
+  - {localId: 22}
+  - {localId: 23}
+  - {localId: 24}
+  - {localId: 25}
+--- !Transform &12
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &13
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &14
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &15
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &16
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &17
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &18
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &19
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0.0003672509, z: 0.00123192}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &20
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0.1517036, z: -0.1096752}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &21
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &22
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &23
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0.01421519, z: -0.1332365}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &24
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0.05365914, z: -0.1589532}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &25
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0.01997762, z: -0.1137869}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+--- !Transform &26
+name: ""
+enabled: true
+localPosition: {x: 0, y: 0, z: 0.05574441}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+parent: {localId: 9}

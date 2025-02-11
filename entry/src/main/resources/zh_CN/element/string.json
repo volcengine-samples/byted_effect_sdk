@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "智能体验套件Demo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "封面相机"
+    },
+    {
+      "name": "camera_not_auth",
+      "value": "未授权相机使用权限"
+    }
+  ]
+}
